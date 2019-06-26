@@ -42,6 +42,7 @@ public class DatasourceDemoApplication implements CommandLineRunner {
         log.info(connection.toString());
 
         connection.close();
+        System.out.println();
     }
 
     private void showData() {
